@@ -9,10 +9,8 @@ public static class BootstrapLoader
     {
         Debug.Log("BootstrapLoader rodando !");
 
-        if (Object.FindObjectOfType<GameBootstrap>() != null)
+        if (Object.FindFirstObjectByType<Bootstrap>() != null)
             return;
-
-        Debug.Log("Carregando cena Bootstrap... !");
 
         SceneManager.LoadScene("Bootstrap", LoadSceneMode.Additive);
     }

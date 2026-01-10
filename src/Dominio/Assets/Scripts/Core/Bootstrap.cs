@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class GameBootstrap : MonoBehaviour
+public class Bootstrap : MonoBehaviour
 {
-    public static GameBootstrap Instance { get; private set; }
+    public static Bootstrap Instance { get; private set; }
     public GameStateMachine StateMachine { get; private set; }
 
     private void Awake()
@@ -23,7 +23,7 @@ public class GameBootstrap : MonoBehaviour
 
     private void Start()
     {
-        StateMachine.ChangeState(new BootState(StateMachine));
+        StateMachine.ChangeState(new GameBootState(StateMachine));
     }
 
     private void Update()

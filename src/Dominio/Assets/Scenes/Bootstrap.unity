@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 1322435028}
   - component: {fileID: 1322435027}
   m_Layer: 0
-  m_Name: GameBootstrap
+  m_Name: GameBootstrapObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
