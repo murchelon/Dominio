@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16051d571c7dbdb47bf6d1f8bad232a3, type: 3}
+  m_Name: KH
+  m_EditorClassIdentifier: Assembly-CSharp::Dominio.Card
+  ID: 4
+  cardName: K Copas
+  baseValue: 13
+  useValue: 13
+  faceValue: K
+  suit: 0
+  cardType: 0
