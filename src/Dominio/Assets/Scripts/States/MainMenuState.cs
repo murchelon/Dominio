@@ -13,6 +13,7 @@ public class MainMenuState : IGameState
     public void Enter()
     {
         Debug.Log("Entrou no MainMenuState");
+        //SceneManager.LoadScene("MainMenuScene");
         this.machine.ChangeState(new GamePlayState(this.machine));
     }
 
